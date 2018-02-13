@@ -1,0 +1,28 @@
+---
+title: "Distance Field Raymarcher - Real-Time Bidirectional Path Tracing"
+layout: post
+date: 2018-02-12 20:44
+tag: GLSL
+image: https://i.imgur.com/gfkJBnz.png
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Path traces a simple scene using distance field functions, exhibiting indirect illumination using cosine-weighted hemispheres."
+category: project
+author: chamathdharmasiri
+externalLink: false
+---
+
+![Screenshot](https://i.imgur.com/wryHLSq.jpg)
+
+This raymarcher implemented in a GLSL pixel shader path traces a simple scene using distance field functions, exhibiting indirect illumination using cosine-weighted hemispheres.
+
+[View on Shadertoy](https://www.shadertoy.com/view/4lsBzs) 
+
+(Note: if the scene runs slowly, you can adjust the number of samples and bounces at the top of the file.)
+
+---
+
+This raymarcher was done as a final project for my computer graphics directed study during my last semester at Boston University. Having been fascinated by both raytraced and raster graphics for most of my college career, this project represented an opportunity for me to try combining elements of both pipelines into one tool. Distance fields allow for the sort of fast GPU querying that make this possible; essentially, each object in the scene is represented by a geometric function instead of a set of vertices - this function lets the raymarcher know how close any point in space is to the nearest surface of an object. I had originally learned about the concept of distance fields through updates to Unreal Engine 4, where distance fields were used to approximate soft shadows and ambient occlusion in dynamic scenes; since the method is inherently a form of raymarching, I felt inspired to transfer the idea entirely to a path tracer. 
+
+Many thanks to Dr. Sclaroff for giving me feedback on this project!
