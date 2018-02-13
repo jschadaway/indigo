@@ -1,0 +1,26 @@
+---
+title: "Pylet - Python Learning Environment and Toolkit"
+layout: post
+date: 2018-02-12 19:24
+tag: c++
+image: https://i.imgur.com/gfkJBnz.png
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Pylet is a basic development environment for creating, managing, and tracing Python code. It is intended to be as simple as possible to accomodate students and other learning individuals."
+category: project
+author: chamathdharmasiri
+externalLink: false
+---
+
+![Screenshot](https://i.imgur.com/gfkJBnz.png)
+
+Pylet is a basic development environment for creating, managing, and tracing Python code. It is intended to be as simple as possible to accomodate students and other learning individuals.
+
+[View on GitHub](https://github.com/jschadaway/pylet)
+
+---
+
+Pylet is primarily built on the Qt framework - interaction with the Python interpreter is handled through a singleton instance of a Python console whose standard input and output is redirected to the Qt console. Previously, I used the Boost Python libraries to access Python internals; later in development, I began to learn more about the Python C API and thus opted to include Python headers from whatever local installation of Python existed on the host machine. Because it uses Python's underlying C API, Pylet has access to some unique possibilities, such as profiling the memory of the child Python process.
+
+Future work for Pylet includes moving the Python interpreter to a separate thread from the GUI thread - this would enable the interpreter to continue running when the window is moved, and allow Ctrl-C termination to directly target the Python console instead of the application as a whole.
