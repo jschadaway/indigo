@@ -1,7 +1,7 @@
 ---
 title: "Pylet - Python Learning Environment and Toolkit"
 layout: post
-date: 2018-02-12 19:24
+date: 2018-02-12 23:16
 tag: c++
 image: https://i.imgur.com/gfkJBnz.png
 headerImage: false
@@ -13,7 +13,9 @@ author: chamathdharmasiri
 externalLink: false
 ---
 
+{:refdef: style="text-align: center;"}
 ![Screenshot](https://i.imgur.com/gfkJBnz.png)
+{: refdef}
 
 Pylet is a basic development environment for creating, managing, and tracing Python code. It is intended to be as simple as possible to accomodate students and other learning individuals.
 

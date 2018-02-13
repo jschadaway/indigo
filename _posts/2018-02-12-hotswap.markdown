@@ -1,0 +1,32 @@
+---
+title: "HotSwap - A Mobile Application for Swapping Items"
+layout: post
+date: 2018-02-12 20:12
+tag: Android
+image: https://i.imgur.com/gfkJBnz.png
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "An Android application that uses Firebase alongside GeoFire queries in order to allow people to list and rent unused items from other people in their near vicinity."
+category: project
+author: chamathdharmasiri
+externalLink: false
+---
+
+{:refdef: style="text-align: center;"}
+![Screenshot](https://i.imgur.com/KwYDpTg.png)
+{: refdef}
+
+HotSwap is an Android application that uses Firebase alongside GeoFire queries in order to allow people to list and rent unused items from other people in their near vicinity.
+
+[View on GitHub](https://github.com/TeamCaffeine/HotSwap)
+
+---
+
+This was a team project that I worked on as part of the Mobile Application Development class at Boston University. We had originally conceived of an idea where people could "swap" items that they did not regularly use with one another; however, as we began actually implementing the idea, we opted to focus on making the application a renting platform. Users could list an item with a given prices per day, and set the available dates on which it could be rented. My personal contribution to the project was primarily in the Stripe (payment) API integration, as well as UI / frontend design and outlining the overall strategy for moving an item between owned, rented, and "pending return" states. As part of the class goals, each of us cycled through supervision of the project in weekly Scrum cycles. 
+
+{:refdef: style="text-align: center;"}
+![Team Caffeine](https://i.imgur.com/h10lKE2.jpg)
+{: refdef}
+
+The team members of "Team Caffeine" from left to right: Alex Rosenfeld, Chamath Dharmasiri, William Ieong, Tony Kim, Megan Fantes

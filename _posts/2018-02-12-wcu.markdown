@@ -1,5 +1,5 @@
 ---
-title: "WesterosCraftUnreal - A Minecraft port to Unreal Engine 4"
+title: "WesterosCraftUnreal - A Minecraft Port to Unreal Engine 4"
 layout: post
 date: 2018-02-12 20:43
 tag: c++
@@ -13,9 +13,11 @@ author: chamathdharmasiri
 externalLink: false
 ---
 
+{:refdef: style="text-align: center;"}
 ![Screenshot](http://i.imgur.com/RhqDjz6.png)
+{: refdef}
 
-WesterosCraftUnreal is a derivation of Andrew Scheidecker's [BrickGrid plugin](https://github.com/AndrewScheidecker/BrickGame/tree/master/Plugins/BrickGrid/Source/BrickGrid), meant to demonstrate the parsing of Minecraft's native NBT format directly to Unreal Engine 4. This project is built for the purposes of the [WesterosCraft](http://www.westeroscraft.com) server, though most of the functionality is derived from UE4 plugins.
+WesterosCraftUnreal is a derivation of Andrew Scheidecker's [BrickGrid Unreal Engine plugin](https://github.com/AndrewScheidecker/BrickGame/tree/master/Plugins/BrickGrid/Source/BrickGrid), meant to demonstrate the parsing of Minecraft's native NBT format directly to Unreal Engine 4. This project was built for the purposes of the [WesterosCraft](http://www.westeroscraft.com) server, though most of the functionality is derived from UE4 plugins.
 
 [View on BitBucket](https://bitbucket.org/Hal9007/westeroscraftunreal)
 

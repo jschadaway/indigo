@@ -13,7 +13,9 @@ author: chamathdharmasiri
 externalLink: false
 ---
 
+{:refdef: style="text-align: center;"}
 ![Screenshot](https://i.imgur.com/wryHLSq.jpg)
+{: refdef}
 
 This raymarcher implemented in a GLSL pixel shader path traces a simple scene using distance field functions, exhibiting indirect illumination using cosine-weighted hemispheres.
 

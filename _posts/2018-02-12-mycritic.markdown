@@ -1,0 +1,26 @@
+---
+title: "mycritic - Crowdsourced Review Aggregator"
+layout: post
+date: 2018-02-12 19:24
+tag: Django
+image: https://i.imgur.com/gfkJBnz.png
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "mycritic is a review aggregator which analyzes users' media ratings and pairs them with other users that have similar taste in order to provide recommendations."
+category: project
+author: chamathdharmasiri
+externalLink: false
+---
+
+{:refdef: style="text-align: center;"}
+![Screenshot](https://i.imgur.com/Mgvv9gB.png)
+{: refdef}
+
+mycritic is a review aggregator which analyzes users' media ratings and pairs them with other users that have similar taste in order to provide recommendations.
+
+[View on GitHub](https://github.com/CS411-Team-5/mycritic)
+
+---
+
+Created as a team project for the CS411 Software Development class at Boston University, mycritic was an idea that I had previously thought of at a hackathon, but never had a chance to implement. At its core is a simple algorithm which calculates the "star distance" of two users - in short, how differently they tend to rate the same media on a ten-point scale. My team looked at using several different technologies, such as Node.js, but we ultimately settled on using the Python-based Django web server, as it was the language that everyone was most familiar with, and it allowed us to rapidly test and review new changes without having to restart the server. This was the first time I had spent a significant amount of time with frontend web development, and I came away with a much better understanding of CSS and dynamic web elements (though not much of a greater appreciation!).
